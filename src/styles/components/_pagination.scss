@@ -1,0 +1,8 @@
+.pagination {
+  padding: 1rem 0;
+  
+  &__box {
+    display: flex;
+    justify-content: space-between;
+  }
+}

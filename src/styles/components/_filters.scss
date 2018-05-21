@@ -1,0 +1,30 @@
+.filters {
+  align-items: center;
+  display: flex;
+  margin-bottom: 4rem;
+
+  &__sort {
+    border: 1px solid $color-primary;
+    color: $color-primary;
+    font-family: inherit;
+    margin-right: 1rem;
+    outline: none;
+    padding: .3rem .5rem;
+    width: 8rem;
+  }
+
+  &__search {
+    border: 1px solid $color-primary;
+    color: $color-primary;
+    font-family: inherit;
+    margin-right: auto;
+    outline: none;
+    padding: .3rem .5rem;
+    width: 8rem;
+  }
+
+  &__search::-webkit-input-placeholder {
+    color: $color-primary;
+    font-family: inherit;
+  }
+}

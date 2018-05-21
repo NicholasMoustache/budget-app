@@ -1,0 +1,41 @@
+.ReactModal__Overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: $color-grey-light;
+  border-radius: 3px;
+  box-shadow: 1px 1px 8px rgba(0,0,0,.5);
+  height: 15rem;
+  outline: none;
+  padding: 2rem 0 1rem 0;
+  width: 50rem;
+  
+  display: flex;
+  flex-flow: column;
+  
+  @media(max-width: 600px) { width: 40rem; }
+  @media(max-width: 480px) { width: 30rem; }
+  
+  & > h1 {
+    color: $color-grey;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    
+    @media(max-width: 480px) { font-size: 1.5rem; }
+  }
+
+  &__subtitle {
+    margin-bottom: auto;
+  }
+
+  &__btn-box {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+

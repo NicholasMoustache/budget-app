@@ -1,0 +1,10 @@
+.budget {
+  background-color: $color-white;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  @media (max-width: 760px) {
+    flex-flow: column;
+  }
+
+}

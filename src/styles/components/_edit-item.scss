@@ -1,0 +1,25 @@
+.edit-item {
+  align-items: center;
+  display: flex;
+
+  &__form {
+    align-items: flex-end;
+    display: flex;
+    flex: 1 1 auto;
+    margin-top: 2rem;
+  }
+
+  &__input {
+    background-color: $color-grey-light;
+    border: none;
+    color: $color-grey;
+    font-family: inherit;
+    font-size: 1.8rem;
+    line-height: 1.45;
+    outline: none;
+    padding-left: .4rem;
+    width: 100%;
+  }
+
+  &__input:first-child { border-right: 1px solid $color-primary; }
+}
